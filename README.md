@@ -11,10 +11,10 @@ CyberShield Analytics is an enterprise-style **Security Operations Center (SOC)*
 
 The platform continuously monitors system logs and simulated network traffic, detects cyber threats using a rule-based detection engine, calculates dynamic risk scores, manages incidents, and provides an interactive dashboard for security analysts.
 
----
 
-# 📑 Table of Contents
+## 📑 Table of Contents
 
+- [Project Overview](#project-overview)
 - Project Overview
 - Business Problem
 - Objectives
@@ -31,9 +31,9 @@ The platform continuously monitors system logs and simulated network traffic, de
 - Future Enhancements
 - Author
 
----
 
-# 📖 Project Overview
+
+## 📖 Project Overview
 
 Organizations generate thousands of security logs every day from servers, applications, firewalls, and network devices.
 
@@ -50,9 +50,9 @@ This project demonstrates practical implementation of:
 - Dashboard Development
 - Role-Based Authentication
 
----
 
-# 🎯 Business Problem
+
+## 🎯 Business Problem
 Organizations receive thousands of security events every day from servers, applications, firewalls, and network devices. Manually reviewing these logs is time-consuming and often results in delayed responses to cyber threats.
 
 Security teams require an automated platform that can:
@@ -66,9 +66,9 @@ Security teams require an automated platform that can:
 
 CyberShield Analytics addresses these challenges by providing a simplified yet enterprise-inspired Security Operations Center (SOC) workflow.
 
----
 
-# 🎯 Project Objectives
+
+## 🎯 Project Objectives
 
 - Build a real-time SOC monitoring platform
 - Detect common cyber attacks automatically
@@ -79,12 +79,11 @@ CyberShield Analytics addresses these challenges by providing a simplified yet e
 - Manage incidents through their lifecycle
 - Demonstrate enterprise SOC architecture
 
----
 
-##  Key Features
 
-###  Real-Time Log Monitoring
+## ⭐ Key Features
 
+### ✅ Real-Time Log Monitoring
 The platform continuously monitors log files using Python Watchdog.
 
 Example log:
@@ -99,9 +98,8 @@ Detection:
 Brute Force Attack Detected
 ```
 
----
 
-### Supported Threat Detection
+### ✅ Supported Threat Detection
 
 | Threat | Detection Pattern |
 |---------|------------------|
@@ -116,9 +114,8 @@ Brute Force Attack Detected
 | RDP Attack | Port 3389 |
 | SQL Server Attack | Port 1433 |
 
----
 
-### Dynamic Risk Scoring
+### ✅ Dynamic Risk Scoring
 
 CyberShield calculates risk dynamically using:
 
@@ -136,7 +133,7 @@ Risk Score = **300**
 
 Higher scores indicate higher priority incidents.
 
----
+
 
 ### 🌐 Network Traffic Monitoring
 
@@ -158,9 +155,8 @@ Detected Threat
 Remote Desktop Protocol (RDP) Attack
 ```
 
----
 
-### IP Intelligence
+### ✅ IP Intelligence
 
 Each detected IP is enriched with:
 
@@ -170,9 +166,9 @@ Each detected IP is enriched with:
 - Organization
 - Risk Score
 
----
 
-### Incident Management
+
+### ✅ Incident Management
 
 Critical threats automatically generate incidents.
 
@@ -186,7 +182,6 @@ INVESTIGATING
 RESOLVED
 ```
 
----
 
 ## 📊 Interactive SOC Dashboard
 
@@ -197,16 +192,7 @@ The dashboard provides:
 - Average Risk Score
 - Unique Attackers
 - Countries Detected
-
-### Dashboard Visualizations
-
-- Threat Distribution
-- Top Attackers
-- Risk Analysis
-- Incident Timeline
-- Live Threat Logs
-
----
+![Dashboard](Streamlit_Dashboards/dashboard1.png)
 
 ##  Role-Based Authentication
 
@@ -276,31 +262,18 @@ Risk Score Engine        Incident Manager
 ---
 
 ## Dashboard
-
-```markdown
 ![Dashboard](Streamlit_Dashboards/dashboard1.png)
-```
 
----
 
 ## Threat Logs
-
-```markdown
 ![Threat Logs](Streamlit_Dashboards/dashboard_2.png)
-```
-
----
 
 ## Incidents
-
-```markdown
 ![Incidents](Streamlit_Dashboards/dashboard_3.png)
-```
 
----
+
 
 ## 📂 Project Structure
-
 ```
 CyberShield-Analytics/
 │
@@ -325,12 +298,9 @@ CyberShield-Analytics/
 └── server_access.log
 ```
 
----
 
 ## Database Design
-
 **The application contains three primary tables.**
-
 ### ThreatLogs
 - Stores all detected security events.
 
@@ -350,7 +320,6 @@ CyberShield-Analytics/
 | organization | Organization |
 | created_at | Detection Time |
 
----
 
 ### Users
 
@@ -363,7 +332,7 @@ Stores authentication information.
 | password | bcrypt Password |
 | role | User Role |
 
----
+
 
 ### Incidents
 
@@ -382,7 +351,7 @@ Tracks incident lifecycle.
 | created_time | Created |
 | resolved_time | Resolved |
 
----
+
 
 ## Authentication Workflow
 
@@ -405,10 +374,10 @@ Authentication Successful?
  ▼         ▼
 Dashboard  Login Failed
 ```
----
+
+
 
 ## Running the Project
-
 ### Start Log Monitor
 
 ```bash
@@ -433,7 +402,7 @@ streamlit run app.py
 http://localhost:8501
 ```
 
----
+
 
 ## Project Outcomes
 
@@ -449,7 +418,6 @@ CyberShield Analytics successfully demonstrates:
 - Role-Based Authentication
 - Cybersecurity Analytics
 
----
 
 ## Future Enhancements
 
@@ -463,7 +431,7 @@ CyberShield Analytics successfully demonstrates:
 - Real Packet Capture (Scapy)
 - SIEM Integration
 
----
+
 
 ## Author
 
