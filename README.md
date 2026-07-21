@@ -53,24 +53,18 @@ This project demonstrates practical implementation of:
 ---
 
 # 🎯 Business Problem
+Organizations receive thousands of security events every day from servers, applications, firewalls, and network devices. Manually reviewing these logs is time-consuming and often results in delayed responses to cyber threats.
 
-Security analysts spend countless hours manually reviewing logs.
+Security teams require an automated platform that can:
 
-Manual monitoring often causes:
+- Monitor incoming logs continuously
+- Detect suspicious activities automatically
+- Prioritize threats based on risk
+- Alert analysts quickly
+- Track incidents until resolution
+- Visualize security metrics through dashboards
 
-- Delayed threat detection
-- Missed security incidents
-- Slow incident response
-- Difficulty prioritizing critical attacks
-
-CyberShield Analytics automates these tasks by:
-
-- Monitoring logs continuously
-- Detecting suspicious activities
-- Calculating risk scores
-- Creating security incidents
-- Visualizing security events
-- Supporting analyst investigation
+CyberShield Analytics addresses these challenges by providing a simplified yet enterprise-inspired Security Operations Center (SOC) workflow.
 
 ---
 
@@ -87,9 +81,9 @@ CyberShield Analytics automates these tasks by:
 
 ---
 
-# 🚀 Key Features
+##  Key Features
 
-## ✅ Real-Time Log Monitoring
+###  Real-Time Log Monitoring
 
 The platform continuously monitors log files using Python Watchdog.
 
@@ -107,7 +101,7 @@ Brute Force Attack Detected
 
 ---
 
-## 🔍 Supported Threat Detection
+### Supported Threat Detection
 
 | Threat | Detection Pattern |
 |---------|------------------|
@@ -124,7 +118,7 @@ Brute Force Attack Detected
 
 ---
 
-## ⚠ Dynamic Risk Scoring
+### Dynamic Risk Scoring
 
 CyberShield calculates risk dynamically using:
 
@@ -144,7 +138,7 @@ Higher scores indicate higher priority incidents.
 
 ---
 
-## 🌐 Network Traffic Monitoring
+### 🌐 Network Traffic Monitoring
 
 The platform simulates enterprise network traffic.
 
@@ -166,7 +160,7 @@ Remote Desktop Protocol (RDP) Attack
 
 ---
 
-## 🌍 IP Intelligence
+### IP Intelligence
 
 Each detected IP is enriched with:
 
@@ -178,7 +172,7 @@ Each detected IP is enriched with:
 
 ---
 
-## 🚨 Incident Management
+### Incident Management
 
 Critical threats automatically generate incidents.
 
@@ -214,7 +208,7 @@ The dashboard provides:
 
 ---
 
-## 🔐 Role-Based Authentication
+##  Role-Based Authentication
 
 Passwords are securely hashed using bcrypt.
 
@@ -226,7 +220,7 @@ Passwords are securely hashed using bcrypt.
 
 ---
 
-# 🛠 Technology Stack
+## Technology Stack
 
 | Category | Technology |
 |-----------|------------|
@@ -242,7 +236,7 @@ Passwords are securely hashed using bcrypt.
 
 ---
 
-# 🏗 Enterprise Architecture
+## Enterprise Architecture
 
 ```text
                System Logs
@@ -271,12 +265,12 @@ Risk Score Engine        Incident Manager
 
 ---
 
-# 📸 Dashboard Preview
+## Dashboard Preview
 
-## Login
+### Login
 
 ```markdown
-![Login](screenshots/login.png)
+![Login](Streamlit_Dashboards/login_page.png)
 ```
 
 ---
@@ -284,7 +278,7 @@ Risk Score Engine        Incident Manager
 ## Dashboard
 
 ```markdown
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](Streamlit_Dashboards/dashboard1.png)
 ```
 
 ---
@@ -292,7 +286,7 @@ Risk Score Engine        Incident Manager
 ## Threat Logs
 
 ```markdown
-![Threat Logs](screenshots/threat_logs.png)
+![Threat Logs](Streamlit_Dashboards/dashboard_2.png)
 ```
 
 ---
@@ -300,14 +294,14 @@ Risk Score Engine        Incident Manager
 ## Incidents
 
 ```markdown
-![Incidents](screenshots/incidents.png)
+![Incidents](Streamlit_Dashboards/dashboard_3.png)
 ```
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```text
+```
 CyberShield-Analytics/
 │
 ├── app.py
@@ -333,13 +327,12 @@ CyberShield-Analytics/
 
 ---
 
-# 🗄 Database Design
+## Database Design
 
-The application contains three primary tables.
+**The application contains three primary tables.**
 
-## ThreatLogs
-
-Stores all detected security events.
+### ThreatLogs
+- Stores all detected security events.
 
 | Column | Description |
 |---------|-------------|
@@ -359,7 +352,7 @@ Stores all detected security events.
 
 ---
 
-## Users
+### Users
 
 Stores authentication information.
 
@@ -372,7 +365,7 @@ Stores authentication information.
 
 ---
 
-## Incidents
+### Incidents
 
 Tracks incident lifecycle.
 
@@ -391,9 +384,9 @@ Tracks incident lifecycle.
 
 ---
 
-# 🔐 Authentication Workflow
+## Authentication Workflow
 
-```text
+```
 User Login
      │
      ▼
@@ -412,48 +405,9 @@ Authentication Successful?
  ▼         ▼
 Dashboard  Login Failed
 ```
-
 ---
 
-# ⚙ Installation
-
-## Clone Repository
-
-```bash
-git clone https://github.com/prajakta-89/CyberShield-Analytics.git
-```
-
-```bash
-cd CyberShield-Analytics
-```
-
----
-
-## Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Configure Database
-
-Create the database:
-
-```sql
-CREATE DATABASE cyber_security_db;
-```
-
-Run:
-
-```
-sql/database.sql
-```
-
----
-
-# ▶ Running the Project
+## Running the Project
 
 ### Start Log Monitor
 
@@ -473,7 +427,7 @@ python network_monitor.py
 streamlit run app.py
 ```
 
-Open:
+### Open:
 
 ```
 http://localhost:8501
@@ -481,7 +435,7 @@ http://localhost:8501
 
 ---
 
-# 📈 Project Outcomes
+## Project Outcomes
 
 CyberShield Analytics successfully demonstrates:
 
@@ -497,7 +451,7 @@ CyberShield Analytics successfully demonstrates:
 
 ---
 
-# 🚀 Future Enhancements
+## Future Enhancements
 
 - Machine Learning Threat Detection
 - Behavioral Analytics
@@ -511,17 +465,11 @@ CyberShield Analytics successfully demonstrates:
 
 ---
 
-# 👩‍💻 Author
+## Author
 
 ## Prajakta Bhondave
 
 **Aspiring Data Analyst | Python | SQL | Power BI | Streamlit | Cybersecurity Analytics**
 
-### Connect with Me
-
 - **GitHub:** https://github.com/prajakta-89
 - **LinkedIn:** https://www.linkedin.com/in/prajakta-bhondave-773b092a6
-
----
-
-## ⭐ If you found this project useful, please consider giving it a star.
