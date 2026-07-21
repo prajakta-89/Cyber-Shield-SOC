@@ -301,7 +301,6 @@ Python/
 | organization | Organization |
 | created_at | Detection Time |
 
-![Dashboard](DB_creation_for_storing_live_incidents/data_stored_in_mysql_database.png)
 
 
 ### Users
