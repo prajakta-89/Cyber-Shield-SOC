@@ -36,7 +36,7 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 
 ![Login](Streamlit_Dashboards/login_page.png)
 
-## 📖 Project Overview
+## 📖 Project Overview 
 
 Organizations generate thousands of security logs every day from servers, applications, firewalls, and network devices.
 
