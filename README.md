@@ -17,15 +17,16 @@ The platform continuously monitors system logs and simulated network traffic, de
 - [Project Overview](#-project-overview)
 - [Business Problem](#-business-problem)
 - [Project Objectives](#-project-objectives)
+- [Dashboard Preview](#-dashboard-preview)
 - [Key Features](#-key-features)
 - [Technology Stack](#-technology-stack)
 - [System Architecture](#-system-architecture)
-- [Dashboard Preview](#-dashboard-preview)
+- [Soc_Dashboard](#-soc-dashboard)
 - [Project Structure](#-project-structure)
 - [Database Design](#-database-design)
 - [Authentication Workflow](#-authentication-workflow)
-- [Installation Guide](#-installation-guide)
 - [Running the Project](#-running-the-project)
+- [Incident_Logs](#incident-logs)
 - [Project Outcomes](#-project-outcomes)
 - [Future Enhancements](#-future-enhancements)
 - [Author](#-author)
@@ -82,6 +83,8 @@ CyberShield Analytics addresses these challenges by providing a simplified yet e
 - Demonstrate enterprise SOC architecture
 
 
+## 📊 Dashboard preview
+![Threat Logs](Streamlit_Dashboards/dashboard_2.png)
 
 ## ⭐ Key Features
 
@@ -186,16 +189,7 @@ RESOLVED
 
 
 ## 📊 SOC Dashboard
-
-The dashboard provides:
-
-- Total Alerts
-- Critical Threats
-- Average Risk Score
-- Unique Attackers
-- Countries Detected
-
-![Dashboard](Streamlit_Dashboards/dashboard_2.png)
+![Dashboard](Streamlit_Dashboards/dashboard_1.png)
 
 ##  Role-Based Authentication
 
@@ -251,21 +245,6 @@ Risk Score Engine        Incident Manager
                     ▼
                SOC Analyst
 ```
-
----
-
-## Dashboard Preview
-
-## Dashboard
-![Dashboard](Streamlit_Dashboards/dashboard1.png)
-
-
-## Threat Logs
-![Threat Logs](Streamlit_Dashboards/dashboard_2.png)
-
-## Incidents
-![Incidents](Streamlit_Dashboards/dashboard_3.png)
-
 
 
 ## 📂 Project Structure
@@ -396,6 +375,10 @@ streamlit run app.py
 ```
 http://localhost:8501
 ```
+
+
+## Incidents logs
+![Incidents](Streamlit_Dashboards/dashboard_3.png)
 
 
 
