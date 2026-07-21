@@ -189,7 +189,7 @@ RESOLVED
 
 
 ## 📊 SOC Dashboard
-![Dashboard](Streamlit_Dashboards/dashboard_1.png)
+![Dashboard](Streamlit_Dashboards/dashboard1.png)
 
 ##  Role-Based Authentication
 
