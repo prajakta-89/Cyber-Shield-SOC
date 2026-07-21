@@ -15,7 +15,6 @@ The platform continuously monitors system logs and simulated network traffic, de
 ## 📑 Table of Contents
 
 - [Project Overview](#project-overview)
-- Project Overview
 - Business Problem
 - Objectives
 - Key Features
@@ -31,7 +30,23 @@ The platform continuously monitors system logs and simulated network traffic, de
 - Future Enhancements
 - Author
 
+## 📑 Table of Contents
 
+- [📌 Project Overview](#-project-overview)
+- [🎯 Business Problem](#-business-problem)
+- [🎯 Project Objectives](#-project-objectives)
+- [⭐ Key Features](#-key-features)
+- [🛠 Technology Stack](#-technology-stack)
+- [🏗 System Architecture](#-system-architecture)
+- [📊 Dashboard Preview](#-dashboard-preview)
+- [📁 Project Structure](#-project-structure)
+- [🗄 Database Design](#-database-design)
+- [🔐 Authentication Workflow](#-authentication-workflow)
+- [⚙ Installation Guide](#-installation-guide)
+- [▶ Running the Project](#-running-the-project)
+- [📈 Project Outcomes](#-project-outcomes)
+- [🚀 Future Enhancements](#-future-enhancements)
+- [👩‍💻 Author](#-author)
 
 ## 📖 Project Overview
 
