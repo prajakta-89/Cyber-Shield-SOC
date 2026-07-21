@@ -12,6 +12,11 @@ CyberShield Analytics is an enterprise-style **Security Operations Center (SOC)*
 The platform continuously monitors system logs and simulated network traffic, detects cyber threats using a rule-based detection engine, calculates dynamic risk scores, manages incidents, and provides an interactive dashboard for security analysts.
 
 
+### Login
+
+![Login](Streamlit_Dashboards/login_page.png)
+
+
 ## 📑 Table of Contents
 
 - [Project Overview](#project-overview)
@@ -268,11 +273,6 @@ Risk Score Engine        Incident Manager
 ---
 
 ## Dashboard Preview
-
-### Login
-
-![Login](Streamlit_Dashboards/login_page.png)
-
 
 ## Dashboard
 ![Dashboard](Streamlit_Dashboards/dashboard1.png)
