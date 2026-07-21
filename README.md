@@ -179,7 +179,7 @@ Critical threats automatically generate incidents.
 
 Incident Workflow
 
-```text
+```
 OPEN
    ↓
 INVESTIGATING
@@ -201,7 +201,7 @@ Passwords are securely hashed using bcrypt.
 | SOC Analyst | Investigate Incidents |
 | Viewer | Read-only Dashboard |
 
----
+
 
 ## [🛠 Technology Stack
 
@@ -217,11 +217,11 @@ Passwords are securely hashed using bcrypt.
 | Database Connector | mysql-connector-python |
 | Version Control | Git & GitHub |
 
----
+
 
 ## Enterprise Architecture
 
-```text
+```
                System Logs
                     │
                     ▼
@@ -300,6 +300,8 @@ Python/
 | isp | Internet Provider |
 | organization | Organization |
 | created_at | Detection Time |
+
+![Dashboard](DB_creation_for_storing_live_incidents/data_stored_in_mysql_database.png)
 
 
 ### Users
