@@ -10,40 +10,38 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 
 
 ### 🎯 Business Problem
-
 Organizations receive thousands of security events every day from servers, applications, firewalls, and network devices. Manually reviewing these logs is time-consuming and often results in delayed responses to cyber threats.
-
 Security teams require an automated platform that can:
+- Monitor incoming logs continuously
+- Detect suspicious activities automatically
+- Prioritize threats based on risk
+- Alert analysts quickly
+- Track incidents until resolution
+- Visualize security metrics through dashboards
 
-Monitor incoming logs continuously
-Detect suspicious activities automatically
-Prioritize threats based on risk
-Alert analysts quickly
-Track incidents until resolution
-Visualize security metrics through dashboards
 
-CyberShield Analytics addresses these challenges by providing a simplified yet enterprise-inspired Security Operations Center (SOC) workflow.
-Project Objectives
+### The primary objectives of this project are:
 
-The primary objectives of this project are:
+- Build a real-time cybersecurity monitoring platform
+- Detect common cyber attacks automatically
+- Calculate dynamic risk scores
+- Store security events in a centralized database
+- Provide interactive SOC dashboards
+- Implement user authentication with role-based access
+- Manage incidents from detection to resolution
+- Demonstrate enterprise software architecture for portfolio purposes
 
-Build a real-time cybersecurity monitoring platform
-Detect common cyber attacks automatically
-Calculate dynamic risk scores
-Store security events in a centralized database
-Provide interactive SOC dashboards
-Implement user authentication with role-based access
-Manage incidents from detection to resolution
-Demonstrate enterprise software architecture for portfolio purposes
-
-Key Features
+### Key Features :
 ✅ Real-Time Log Monitoring
-
-Automatically monitors system log files using Python Watchdog and processes new log entries without manual intervention.
-
+- Automatically monitors system log files using Python Watchdog and processes new log entries without manual intervention.
 Example:
+```
 192.168.1.100, FAILED
+```
+output:
+```
 Brute Force Attack Detected
+```
 
 | Threat                     | Detection Pattern |
 | -------------------------- | ----------------- |
@@ -60,8 +58,7 @@ Brute Force Attack Detected
 
 
 ✅ Dynamic Risk Scoring
-
-Instead of assigning a fixed risk level, CyberShield calculates a dynamic risk score using:
+- Instead of assigning a fixed risk level, CyberShield calculates a dynamic risk score using:
 | Parameter         | Value |
 | ----------------- | ----- |
 | Severity          | 5     |
@@ -71,9 +68,7 @@ Risk Score = 5 × 10 × 6 = 300
 This enables analysts to prioritize high-risk incidents.
 
 ✅ Network Traffic Monitoring
-
-The platform simulates enterprise network monitoring by processing network events containing:
-
+- The platform simulates enterprise network monitoring by processing network events containing:
 Source IP
 Destination IP
 Protocol
@@ -81,62 +76,55 @@ Port
 Action (ALLOW / DENY)
 
 Example:
+```
 Source: 192.168.1.15
 Destination: 10.0.0.10
 Protocol: TCP
 Port: 3389
 Action: DENY
+```
 
 Threat Detected:
 Remote Desktop Protocol (RDP) Attack
 
 ✅ IP Intelligence
-
-Each detected threat can be enriched with additional information including:
-
+- Each detected threat can be enriched with additional information including:
 Country
 City
 ISP
 Organization
 Risk Score
 
-This allows analysts to identify suspicious geographic locations and external attackers.
+- This allows analysts to identify suspicious geographic locations and external attackers.
 
 ✅ Incident Management
-
-Every critical threat generates an incident that can be tracked through its lifecycle.
-
+- Every critical threat generates an incident that can be tracked through its lifecycle.
 Incident statuses include:
 OPEN
 ↓
-
 INVESTIGATING
 ↓
-
 RESOLVED
 
 ✅ Interactive SOC Dashboard
+- The Streamlit dashboard provides security analysts with real-time insights.
 
-The Streamlit dashboard provides security analysts with real-time insights.
 
-Key Performance Indicators (KPIs):
+### Key Performance Indicators (KPIs):
+ -  Total Alerts
+ -  Critical Threats
+ -  Average Risk Score
+ -  Unique Attackers
+ -  Countries Detected
 
-Total Alerts
-Critical Threats
-Average Risk Score
-Unique Attackers
-Countries Detected
+**Visualizations include:**
+- Threat Distribution
+- Top Attackers
+- Risk Analysis
+- Live Incident Logs
 
-Visualizations include:
-
-Threat Distribution
-Top Attackers
-Risk Analysis
-Live Incident Logs
-
-✅ Role-Based Authentication
-
-The application supports secure login using hashed passwords (bcrypt).
+**✅ Role-Based Authentication**
+- The application supports secure login using hashed passwords (bcrypt).
 
 User Roles:
 | Role        | Permissions                             |
@@ -146,7 +134,7 @@ User Roles:
 | Viewer      | Read-only dashboard access              |
 
 
-🛠 Technology Stack
+### 🛠 Technology Stack
 | Category             | Technology             |
 | -------------------- | ---------------------- |
 | Programming Language | Python 3.12            |
@@ -160,8 +148,7 @@ User Roles:
 | Version Control      | Git & GitHub           |
 
 
-## Login Page
-
+### Login Page
 ![Login Page](screenshots/login_page.png)
 
 ## Dashboard
@@ -174,6 +161,7 @@ User Roles:
 
 
 ### Enterprise Architecture
+
                     System Logs
                          │
                          ▼
@@ -196,6 +184,8 @@ User Roles:
                          │
                          ▼
                     SOC Analyst
+
+
 
 
 ### Project Structure
@@ -226,19 +216,17 @@ CyberShield-Analytics/
 
 
 
-Database Design
+### Database Design
+- CyberShield Analytics uses MySQL as the backend database to securely store security events, user information, and incident records.
+- The database is designed to simulate a Security Information and Event Management (SIEM) platform where all detected threats are centrally stored for analysis and      investigation.
 
-CyberShield Analytics uses MySQL as the backend database to securely store security events, user information, and incident records. The database is designed to simulate a Security Information and Event Management (SIEM) platform where all detected threats are centrally stored for analysis and investigation.
+**The project contains three primary tables:**
+- ThreatLogs – Stores detected security events.
+- Users – Manages authentication and role-based access.
+- Incidents – Tracks the lifecycle of security incidents.
 
-The project contains three primary tables:
-
-ThreatLogs – Stores detected security events.
-Users – Manages authentication and role-based access.
-Incidents – Tracks the lifecycle of security incidents.
-
-📋 ThreatLogs Table
-
-The ThreatLogs table is the core of the application. Every detected threat is inserted into this table.
+**📋 ThreatLogs Table**
+- The ThreatLogs table is the core of the application. Every detected threat is inserted into this table.
 | Column            | Data Type    | Description               |
 | ----------------- | ------------ | ------------------------- |
 | id                | INT          | Primary Key               |
@@ -256,9 +244,8 @@ The ThreatLogs table is the core of the application. Every detected threat is in
 | created_at        | TIMESTAMP    | Detection Time            |
 
 
-👥 Users Table
-
-The Users table manages authentication and authorization.
+**👥 Users Table**
+- The Users table manages authentication and authorization.
 | Column   | Description              |
 | -------- | ------------------------ |
 | user_id  | Primary Key              |
@@ -267,9 +254,8 @@ The Users table manages authentication and authorization.
 | role     | Admin / Analyst / Viewer |
 
 
-🚨 Incidents Table
-
-Every critical threat creates an incident.
+**🚨 Incidents Table**
+- Every critical threat creates an incident.
 | Column        | Description                     |
 | ------------- | ------------------------------- |
 | incident_id   | Primary Key                     |
@@ -284,11 +270,10 @@ Every critical threat creates an incident.
 | resolved_time | Resolution Time                 |
 
 
-Authentication Workflow
-
-CyberShield uses bcrypt for secure password hashing and role-based access control (RBAC).
-
-Login Process
+### Authentication Workflow
+- CyberShield uses bcrypt for secure password hashing and role-based access control (RBAC).
+**Login Process**
+  
 User Opens Login Page
           │
           ▼
@@ -310,92 +295,87 @@ Authentication Successful?
 Dashboard      Error Message
 
 
-
 <p>
   <img src="Streamlit_Dashboards/dashboard_2.png" width="700"/>
 </p>
 
 
 ## How to Run the System
-
 ### 1. Set Up the Database
 - Open your MySQL Workbench.
 - Create a cyber_security_db database
 - Run the provided cyber_security_db.sql to create the tables & storing for data
 
-### 3. Install Dependencies
+### 2. Install Dependencies
 ```python
 pip install streamlit mysql-connector-python plotly pandas
 ```
 
-### 4. Run the Detector
+### 3. Run the Detector
 Open a terminal and start the background script that monitors the logs:
 Start the Log Monitor
 ```python
 python monitor.py
 ```
 
-Start the Network Monitor (or Simulator)
+### 4. Start the Network Monitor (or Simulator)
 ```
 python network_monitor.py
 ```
 
-### Launch the Dashboard
+### 5. Launch the Dashboard
 Open a second terminal and run the UI:
 ```python
 streamlit run ap.py
 ```
 
-Open in Browser
+### 6. Open in Browser
 ```
 http://localhost:8501
 ```
-Project Outcomes
-
-The project successfully demonstrates:
-
-Automated threat detection using Python.
-Real-time log monitoring.
-Simulated network traffic monitoring.
-Dynamic risk scoring.
-MySQL database integration.
-Interactive SOC dashboard using Streamlit.
-Role-based authentication (Admin, Analyst, Viewer).
-Incident creation and tracking.
-Cybersecurity data visualization.
+### Project Outcomes:
+**The project successfully demonstrates:**
+- Automated threat detection using Python.
+- Real-time log monitoring.
+- Simulated network traffic monitoring.
+- Dynamic risk scoring.
+- MySQL database integration.
+- Interactive SOC dashboard using Streamlit.
+- Role-based authentication (Admin, Analyst, Viewer).
+- Incident creation and tracking.
+- Cybersecurity data visualization.
 
 
-Future Enhancements
-Although the project meets its objectives, several enhancements could make it even closer to a production SOC platform.
-Machine Learning Integration
-Network anomaly detection.
-Insider threat detection.
-Behavioral analysis.
+### Future Enhancements
+**Machine Learning Integration:**
+- Network anomaly detection.
+- Insider threat detection.
+- Behavioral analysis.
 
-External Threat Intelligence
-Integrate public threat intelligence APIs such as:
-AbuseIPDB
-VirusTotal
+**External Threat Intelligence:**
+- AbuseIPDB
+- VirusTotal
 
 
-Live Packet Capture
-Replace simulated network traffic with real packet capture using Scapy or similar tools.
+**Live Packet Capture:**
+- Replace simulated network traffic with real packet capture using Scapy or similar tools.
 
-Notification System
-Support:
-Email alerts
-Slack notifications
+**Notification System:**
+- Support:
+- Email alerts
+- Slack notifications
 
 
-Conclusion
+### Conclusion
+- CyberShield Analytics demonstrates how modern Security Operations Centers can automate the collection, analysis, and visualization of cybersecurity events. 
+- By combining Python, MySQL, and Streamlit, the project provides a realistic simulation of SOC workflows, including log monitoring, threat detection, risk assessment, incident management, and dashboard reporting.
 
-CyberShield Analytics demonstrates how modern Security Operations Centers can automate the collection, analysis, and visualization of cybersecurity events. By combining Python, MySQL, and Streamlit, the project provides a realistic simulation of SOC workflows, including log monitoring, threat detection, risk assessment, incident management, and dashboard reporting.
+- While the current implementation focuses on rule-based detection and simulated network traffic, the modular architecture allows future expansion with machine learning, real packet capture, and external threat intelligence feeds.
+- This makes CyberShield Analytics a strong portfolio project that highlights software engineering, data analytics, and cybersecurity concepts in a practical, end-to-end application.
 
-While the current implementation focuses on rule-based detection and simulated network traffic, the modular architecture allows future expansion with machine learning, real packet capture, and external threat intelligence feeds. This makes CyberShield Analytics a strong portfolio project that highlights software engineering, data analytics, and cybersecurity concepts in a practical, end-to-end application.
-
-Author
-Prajakta Bhondave
-Aspiring Data Analyst | Python | SQL | Power BI | Streamlit | Cybersecurity Analytics
-Connect with Me
-GitHub: https://github.com/prajakta-89
-LinkedIn: (Add your LinkedIn profile URL here.)
+### Author
+**Prajakta Bhondave**
+- Aspiring Data Analyst | Python | SQL | Power BI | Streamlit | Cybersecurity Analytics
+- Connect with Me
+- GitHub: https://github.com/prajakta-89
+- LinkedIn: (Add your LinkedIn profile URL here.)
