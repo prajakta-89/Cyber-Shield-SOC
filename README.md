@@ -198,7 +198,7 @@ RESOLVED
 ```
 
 
-## 📊 Interactive SOC Dashboard
+## 📊 SOC Dashboard
 
 The dashboard provides:
 
@@ -207,7 +207,8 @@ The dashboard provides:
 - Average Risk Score
 - Unique Attackers
 - Countries Detected
-![Dashboard](Streamlit_Dashboards/dashboard1.png)
+
+![Dashboard](Streamlit_Dashboards/dashboard_2.png)
 
 ##  Role-Based Authentication
 
@@ -221,7 +222,7 @@ Passwords are securely hashed using bcrypt.
 
 ---
 
-## Technology Stack
+## [🛠 Technology Stack
 
 | Category | Technology |
 |-----------|------------|
@@ -270,11 +271,8 @@ Risk Score Engine        Incident Manager
 
 ### Login
 
-```markdown
 ![Login](Streamlit_Dashboards/login_page.png)
-```
 
----
 
 ## Dashboard
 ![Dashboard](Streamlit_Dashboards/dashboard1.png)
