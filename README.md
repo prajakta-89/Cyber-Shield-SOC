@@ -1,15 +1,15 @@
 # 🛡 CyberShield Analytics
 ## Enterprise Security Operations Center (SOC) Platform
+CyberShield Analytics is an enterprise-style Security Operations Center (SOC) platform developed using Python, MySQL, and Streamlit.
+The platform continuously monitors system logs and simulated network traffic, identifies malicious activities using a rule-based detection engine, calculates dynamic risk scores, stores threat intelligence in a MySQL database, and visualizes incidents through an interactive SOC dashboard.
+
+This project demonstrates practical cybersecurity analytics, automation, database management, dashboard development, authentication, and incident management within a single application.
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
 ![Plotly](https://img.shields.io/badge/Plotly-Visualization-green)
 ![License](https://img.shields.io/badge/License-MIT-success)
-
-CyberShield Analytics is an enterprise-style **Security Operations Center (SOC)** platform built using **Python, Streamlit, and MySQL**.
-
-The platform continuously monitors system logs and simulated network traffic, detects cyber threats using a rule-based detection engine, calculates dynamic risk scores, manages incidents, and provides an interactive dashboard for security analysts.
 
 
 ## 📑 Table of Contents
@@ -249,10 +249,17 @@ Risk Score Engine        Incident Manager
 
 ## 📂 Project Structure
 ```
-CyberShield-Analytics/
+Python/
 │
-├── app.py
+├── ap.py
+├── hash_password.py
+├── ip_intelligence.py
+├── network_detector.py
+├── test_incident.py
+├── test_ip.py
+├── alert_engine.py
 ├── login.py
+├── user_management.py
 ├── monitor.py
 ├── detector.py
 ├── network_monitor.py
@@ -263,7 +270,7 @@ CyberShield-Analytics/
 ├── requirements.txt
 ├── README.md
 │
-├── screenshots/
+├── Streamlit_Dashboard
 │
 ├── sql/
 │   ├── database.sql
