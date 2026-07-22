@@ -23,10 +23,10 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 - [Project Structure](#-project-structure)
 - [Database Structure](#database-structure)
 - [Authentication Workflow](#authentication-workflow)
-- [Running the Project](#-running-the-project)
-- [Incident_Logs](#incident-logs)
-- [Project Outcomes](#-project-outcomes)
-- [Future Enhancements](#-future-enhancements)
+- [Running the Project](#running-the-project)
+- [Incident_Logs](#-incident-logs)
+- [Project Outcomes](#project-outcomes)
+- [Future Enhancements](#future-enhancements)
 - [Author](#author)
 
 
