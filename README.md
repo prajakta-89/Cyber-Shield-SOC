@@ -21,8 +21,8 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 - [System Architecture](#system-architecture)
 - [Soc_Dashboard](#-soc-dashboard)
 - [Project Structure](#-project-structure)
-- [Database Design](#database-design)
-- [Authentication Workflow](#-authentication-workflow)
+- [Database Structure](#database-structure)
+- [Authentication Workflow](#authentication-workflow)
 - [Running the Project](#-running-the-project)
 - [Incident_Logs](#incident-logs)
 - [Project Outcomes](#-project-outcomes)
@@ -285,7 +285,7 @@ Risk Score Engine        Incident Manager
 ```
 
 
-## Database Design
+## Database Structure
 **The application contains three primary tables.**
 ### ThreatLogs
 - Stores all detected security events.
