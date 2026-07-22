@@ -252,6 +252,7 @@ Risk Score Engine        Incident Manager
 │   ├── Dashboard_2
 │   ├── Dashboard_3
 │   └── login_page
+│
 ├── Python/
 │   ├── hash_password.py
 │   ├── ip_intelligence.py
@@ -269,18 +270,24 @@ Risk Score Engine        Incident Manager
 │   ├── database.py
 │   ├── config.py
 │   └── windows_detector
+│
 ├── Log_Files/
 │   ├── network_traffic
 │   └── server_access
+│
 ├── Cyber_Shield_Report/
 │   └── CyberShield_Analytics_Project_Report
+│
 ├── Sql/
 │   ├── database.sql
 │   └── sample_data.sql
+│
 ├── DB_creation_for_storing_live_incidents
 │   └── data_stored_in_mysql_database
+│
 ├── Alert_Notification_Showcase/
 │   └── alert_notification
+│
 └── README.md/
 ```
 
