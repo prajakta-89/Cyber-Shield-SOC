@@ -60,17 +60,17 @@ VALUES
 ('viewer','viewer123','Viewer');
 
 UPDATE Users
-SET password='$2b$12$0n7JV05kLIDwsAq.tSgDlepl/KSMkgpvGCWQBY0iGQ2INj7DDyY9u'
+SET password=''
 WHERE username='admin';
 
 USE cyber_security_db;
 
 UPDATE Users
-SET password='$2b$12$GA3X6p7lGyELXLHVTn.qquNveol12m0f26Lp9ih0yGXyZcxpp2PKe'
+SET password=''
 WHERE username='analyst';
 
 UPDATE Users
-SET password='$2b$12$sle1X7uR2ujiph/5WoR6FuyptNPUBUy6ga4OYe.AsF5H1fKXz0Nh2'
+SET password=''
 WHERE username='viewer';
 
 SELECT * FROM Users;
