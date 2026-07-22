@@ -203,17 +203,15 @@ Passwords are securely hashed using bcrypt.
 
 ## Technology Stack
 
-| Category | Technology |
-|-----------|------------|
-| Programming Language | Python 3.12 |
-| Dashboard | Streamlit |
-| Database | MySQL |
-| Data Processing | Pandas |
-| Visualization | Plotly |
-| Authentication | bcrypt |
-| Log Monitoring | Watchdog |
-| Database Connector | mysql-connector-python |
-| Version Control | Git & GitHub |
+- Programming Language -> Python 3.12
+- Dashboard -> Streamlit
+- Database -> MySQL
+- Data Processing -> Pandas
+- Visualization -> Plotly
+- Authentication -> bcrypt
+- Log Monitoring -> Watchdog
+- Database Connector -> mysql-connector-python
+- Version Control -> Git & GitHub
 
 
 
