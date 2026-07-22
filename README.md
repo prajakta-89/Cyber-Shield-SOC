@@ -18,7 +18,7 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 - [Dashboard Preview](#-dashboard-preview)
 - [Key Features](#-key-features)
 - [Technology Stack](#-technology-stack)
-- [System Architecture](#-system-architecture)
+- [System Architecture](#system-architecture)
 - [Soc_Dashboard](#-soc-dashboard)
 - [Project Structure](#-project-structure)
 - [Database Design](#-database-design)
