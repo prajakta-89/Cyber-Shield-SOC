@@ -24,7 +24,7 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 - [Database Structure](#database-structure)
 - [Authentication Workflow](#authentication-workflow)
 - [How_to_Run_System](#how-to-run-system)
-- [Incident_Logs](#incident-logs)
+- [Incidents_Logs](#incidents-logs)
 - [Project Outcomes](#project-outcomes)
 - [Future Enhancements](#future-enhancements)
 - [Author](#author)
@@ -364,7 +364,7 @@ Dashboard  Login Failed
 
 
 
-## Running the Project
+## How to Run System
 ### Start Log Monitor
 
 ```bash
