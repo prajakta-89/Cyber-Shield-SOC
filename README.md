@@ -35,11 +35,18 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 
 ## 📂 Project Structure
 ```
-├── Streamlit_Dashboard/
-│   ├── Dashboard1
-│   ├── Dashboard_2
-│   ├── Dashboard_3
-│   └── login_page
+├── Alert_Notification_Showcase/
+│   └── alert_notification
+│
+├── Cyber_Shield_Report/
+│   └── CyberShield_Analytics_Project_Report
+│
+├── DB_creation_for_storing_live_incidents/
+│   └── data_stored_in_mysql_database
+│
+├── Log_Files/
+│   ├── network_traffic
+│   └── server_access
 │
 ├── Python/
 │   ├── hash_password.py
@@ -59,22 +66,15 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 │   ├── config.py
 │   └── windows_detector
 │
-├── Log_Files/
-│   ├── network_traffic
-│   └── server_access
-│
-├── Cyber_Shield_Report/
-│   └── CyberShield_Analytics_Project_Report
-│
 ├── Sql/
 │   ├── database.sql
 │   └── sample_data.sql
 │
-├── DB_creation_for_storing_live_incidents/
-│   └── data_stored_in_mysql_database
-│
-├── Alert_Notification_Showcase/
-│   └── alert_notification
+├── Streamlit_Dashboard/
+│   ├── Dashboard1
+│   ├── Dashboard_2
+│   ├── Dashboard_3
+│   └── login_page
 │
 └── README.md/
 ```
