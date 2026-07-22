@@ -15,11 +15,11 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 - [Project Structure](#-project-structure)
 - [Project Overview](#project-overview)
 - [Business Problem](#business-problem)
-- [Dashboard Preview](#-dashboard-preview)
+- [Soc_Dashboard](#-soc-dashboard)
 - [Project Objectives](#project-objectives)
 - [Key Features](#key-features)
 - [Technology Stack](#technology-stack)
-- [Soc_Dashboard](#-soc-dashboard)
+- [Dashboard Preview](#-dashboard-preview)
 - [Database Structure](#database-structure)
 - [Authentication Workflow](#authentication-workflow)
 - [How_to_Run_System](#how-to-run-system)
@@ -113,7 +113,7 @@ Security teams require an automated platform that can:
 CyberShield Analytics addresses these challenges by providing a simplified yet enterprise-inspired Security Operations Center (SOC) workflow.
 
 
-## 📊 Dashboard preview
+## 📊 Soc Dashboard
 ![Threat Logs](Streamlit_Dashboards/dashboard_2.png)
 
 
@@ -230,7 +230,7 @@ RESOLVED
 ```
 
 
-## 📊 SOC Dashboard
+## 📊 Dashboard Preview
 ![Dashboard](Streamlit_Dashboards/dashboard1.png)
 
 ##  Role-Based Authentication
