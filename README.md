@@ -12,10 +12,10 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 
 ## Table of Contents
 - [Login_Page](#login-page)
+- [Project Structure](#-project-structure)
 - [Project Overview](#project-overview)
 - [Business Problem](#business-problem)
 - [Dashboard Preview](#-dashboard-preview)
-- [Project Structure](#-project-structure)
 - [Project Objectives](#project-objectives)
 - [Key Features](#key-features)
 - [Technology Stack](#technology-stack)
@@ -32,44 +32,6 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 ### Login page
 
 ![Login](Streamlit_Dashboards/login_page.png)
-
-##  Project Overview 
-
-Organizations generate thousands of security logs every day from servers, applications, firewalls, and network devices.
-
-CyberShield Analytics automates the Security Operations Center (SOC) workflow by monitoring logs in real time, detecting cyber attacks, calculating risk scores, storing incidents in MySQL, and visualizing security metrics through a Streamlit dashboard.
-
-This project demonstrates practical implementation of:
-
-- Cybersecurity Analytics
-- Log Monitoring
-- Threat Detection
-- Incident Management
-- Risk Assessment
-- Database Management
-- Dashboard Development
-- Role-Based Authentication
-
-
-
-## Business Problem
-Organizations receive thousands of security events every day from servers, applications, firewalls, and network devices. Manually reviewing these logs is time-consuming and often results in delayed responses to cyber threats.
-
-Security teams require an automated platform that can:
-
-- Monitor incoming logs continuously
-- Detect suspicious activities automatically
-- Prioritize threats based on risk
-- Alert analysts quickly
-- Track incidents until resolution
-- Visualize security metrics through dashboards
-
-CyberShield Analytics addresses these challenges by providing a simplified yet enterprise-inspired Security Operations Center (SOC) workflow.
-
-
-## 📊 Dashboard preview
-![Threat Logs](Streamlit_Dashboards/dashboard_2.png)
-
 
 ## 📂 Project Structure
 ```
@@ -116,6 +78,44 @@ CyberShield Analytics addresses these challenges by providing a simplified yet e
 │
 └── README.md/
 ```
+
+##  Project Overview 
+
+Organizations generate thousands of security logs every day from servers, applications, firewalls, and network devices.
+
+CyberShield Analytics automates the Security Operations Center (SOC) workflow by monitoring logs in real time, detecting cyber attacks, calculating risk scores, storing incidents in MySQL, and visualizing security metrics through a Streamlit dashboard.
+
+This project demonstrates practical implementation of:
+
+- Cybersecurity Analytics
+- Log Monitoring
+- Threat Detection
+- Incident Management
+- Risk Assessment
+- Database Management
+- Dashboard Development
+- Role-Based Authentication
+
+
+
+## Business Problem
+Organizations receive thousands of security events every day from servers, applications, firewalls, and network devices. Manually reviewing these logs is time-consuming and often results in delayed responses to cyber threats.
+
+Security teams require an automated platform that can:
+
+- Monitor incoming logs continuously
+- Detect suspicious activities automatically
+- Prioritize threats based on risk
+- Alert analysts quickly
+- Track incidents until resolution
+- Visualize security metrics through dashboards
+
+CyberShield Analytics addresses these challenges by providing a simplified yet enterprise-inspired Security Operations Center (SOC) workflow.
+
+
+## 📊 Dashboard preview
+![Threat Logs](Streamlit_Dashboards/dashboard_2.png)
+
 
 ## Project Objectives
 
