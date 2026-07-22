@@ -282,7 +282,7 @@ Risk Score Engine        Incident Manager
 │   ├── database.sql
 │   └── sample_data.sql
 │
-├── DB_creation_for_storing_live_incidents
+├── DB_creation_for_storing_live_incidents/
 │   └── data_stored_in_mysql_database
 │
 ├── Alert_Notification_Showcase/
