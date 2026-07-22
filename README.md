@@ -13,7 +13,7 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 ## 📑 Table of Contents
 - [Login_Page](#login-page)
 - [Project Overview](#project-overview)
-- [Business Problem](#-business-problem)
+- [Business Problem](#business-problem)
 - [Project Objectives](#-project-objectives)
 - [Dashboard Preview](#-dashboard-preview)
 - [Key Features](#key-features)
@@ -52,7 +52,7 @@ This project demonstrates practical implementation of:
 
 
 
-## 🎯 Business Problem
+## Business Problem
 Organizations receive thousands of security events every day from servers, applications, firewalls, and network devices. Manually reviewing these logs is time-consuming and often results in delayed responses to cyber threats.
 
 Security teams require an automated platform that can:
