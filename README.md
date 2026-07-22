@@ -14,8 +14,8 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 - [Login_Page](#login-page)
 - [Project Overview](#project-overview)
 - [Business Problem](#business-problem)
-- [Project Objectives](#project-objectives)
 - [Dashboard Preview](#-dashboard-preview)
+- [Project Objectives](#project-objectives)
 - [Key Features](#key-features)
 - [Technology Stack](#technology-stack)
 - [Soc_Dashboard](#-soc-dashboard)
@@ -67,6 +67,8 @@ Security teams require an automated platform that can:
 CyberShield Analytics addresses these challenges by providing a simplified yet enterprise-inspired Security Operations Center (SOC) workflow.
 
 
+## 📊 Dashboard preview
+![Threat Logs](Streamlit_Dashboards/dashboard_2.png)
 
 ## Project Objectives
 
@@ -78,10 +80,6 @@ CyberShield Analytics addresses these challenges by providing a simplified yet e
 - Implement secure login with role-based access
 - Manage incidents through their lifecycle
 - Demonstrate enterprise SOC architecture
-
-
-## 📊 Dashboard preview
-![Threat Logs](Streamlit_Dashboards/dashboard_2.png)
 
 ##  Key Features
 
