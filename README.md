@@ -288,7 +288,6 @@ Risk Score Engine        Incident Manager
 
 
 ## Database Structure
-**The application contains three primary tables.**
 ### ThreatLogs
 Stores ThreatLogs information.
 
