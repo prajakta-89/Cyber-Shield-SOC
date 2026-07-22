@@ -12,13 +12,12 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 
 ## 📑 Table of Contents
 - [Login_Page](#login-page)
-- [Project Overview](#-project-overview)
+- [Project Overview](#project-overview)
 - [Business Problem](#-business-problem)
 - [Project Objectives](#-project-objectives)
 - [Dashboard Preview](#-dashboard-preview)
-- [Key Features](#-key-features)
+- [Key Features](#key-features)
 - [Technology Stack](#technology-stack)
-- [System Architecture](#system-architecture)
 - [Soc_Dashboard](#-soc-dashboard)
 - [Project Structure](#-project-structure)
 - [Database Structure](#database-structure)
@@ -34,7 +33,7 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 
 ![Login](Streamlit_Dashboards/login_page.png)
 
-## 📖 Project Overview 
+##  Project Overview 
 
 Organizations generate thousands of security logs every day from servers, applications, firewalls, and network devices.
 
@@ -84,7 +83,7 @@ CyberShield Analytics addresses these challenges by providing a simplified yet e
 ## 📊 Dashboard preview
 ![Threat Logs](Streamlit_Dashboards/dashboard_2.png)
 
-## ⭐ Key Features
+##  Key Features
 
 ### ✅ Real-Time Log Monitoring
 The platform continuously monitors log files using Python Watchdog.
