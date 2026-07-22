@@ -15,11 +15,11 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 - [Project Overview](#project-overview)
 - [Business Problem](#business-problem)
 - [Dashboard Preview](#-dashboard-preview)
+- [Project Structure](#-project-structure)
 - [Project Objectives](#project-objectives)
 - [Key Features](#key-features)
 - [Technology Stack](#technology-stack)
 - [Soc_Dashboard](#-soc-dashboard)
-- [Project Structure](#-project-structure)
 - [Database Structure](#database-structure)
 - [Authentication Workflow](#authentication-workflow)
 - [How_to_Run_System](#how-to-run-system)
@@ -69,6 +69,53 @@ CyberShield Analytics addresses these challenges by providing a simplified yet e
 
 ## 📊 Dashboard preview
 ![Threat Logs](Streamlit_Dashboards/dashboard_2.png)
+
+
+## 📂 Project Structure
+```
+├── Streamlit_Dashboard/
+│   ├── Dashboard1
+│   ├── Dashboard_2
+│   ├── Dashboard_3
+│   └── login_page
+│
+├── Python/
+│   ├── hash_password.py
+│   ├── ip_intelligence.py
+│   ├── network_detector.py
+│   ├── test_incident.py
+│   ├── test_ip.py
+│   ├── alert_engine.py
+│   ├── login.py
+│   ├── user_management.py
+│   ├── monitor.py
+│   ├── detector.py
+│   ├── network_monitor.py
+│   ├── traffic_generator.py
+│   ├── incident_manager.py
+│   ├── database.py
+│   ├── config.py
+│   └── windows_detector
+│
+├── Log_Files/
+│   ├── network_traffic
+│   └── server_access
+│
+├── Cyber_Shield_Report/
+│   └── CyberShield_Analytics_Project_Report
+│
+├── Sql/
+│   ├── database.sql
+│   └── sample_data.sql
+│
+├── DB_creation_for_storing_live_incidents/
+│   └── data_stored_in_mysql_database
+│
+├── Alert_Notification_Showcase/
+│   └── alert_notification
+│
+└── README.md/
+```
 
 ## Project Objectives
 
@@ -237,53 +284,6 @@ Risk Score Engine        Incident Manager
                     │
                     ▼
                SOC Analyst
-```
-
-
-## 📂 Project Structure
-```
-├── Streamlit_Dashboard/
-│   ├── Dashboard1
-│   ├── Dashboard_2
-│   ├── Dashboard_3
-│   └── login_page
-│
-├── Python/
-│   ├── hash_password.py
-│   ├── ip_intelligence.py
-│   ├── network_detector.py
-│   ├── test_incident.py
-│   ├── test_ip.py
-│   ├── alert_engine.py
-│   ├── login.py
-│   ├── user_management.py
-│   ├── monitor.py
-│   ├── detector.py
-│   ├── network_monitor.py
-│   ├── traffic_generator.py
-│   ├── incident_manager.py
-│   ├── database.py
-│   ├── config.py
-│   └── windows_detector
-│
-├── Log_Files/
-│   ├── network_traffic
-│   └── server_access
-│
-├── Cyber_Shield_Report/
-│   └── CyberShield_Analytics_Project_Report
-│
-├── Sql/
-│   ├── database.sql
-│   └── sample_data.sql
-│
-├── DB_creation_for_storing_live_incidents/
-│   └── data_stored_in_mysql_database
-│
-├── Alert_Notification_Showcase/
-│   └── alert_notification
-│
-└── README.md/
 ```
 
 
