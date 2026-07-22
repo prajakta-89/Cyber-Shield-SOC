@@ -425,8 +425,7 @@ CyberShield Analytics successfully demonstrates:
 
 
 ## Author
-
-## Prajakta Bhondave
+**Prajakta Bhondave**
 
 **Aspiring Data Analyst | Python | SQL | Power BI | Streamlit | Cybersecurity Analytics**
 
