@@ -11,7 +11,7 @@ def get_connection():
 
         host="localhost",
         user="root",
-        password="Prajakta@567.",
+        password="",
         database="cyber_security_db"
 
     )
@@ -93,7 +93,7 @@ def get_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Prajakta@567.",
+        password="",
         database="cyber_security_db"
     )
 
