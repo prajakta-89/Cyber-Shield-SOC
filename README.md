@@ -290,56 +290,50 @@ Risk Score Engine        Incident Manager
 ## Database Structure
 **The application contains three primary tables.**
 ### ThreatLogs
-- Stores all detected security events.
+Stores ThreatLogs information.
 
-| Column | Description |
-|---------|-------------|
-| id | Primary Key |
-| source_ip | Source IP |
-| event_type | Attack Type |
-| severity_level | Severity |
-| asset_criticality | Asset Importance |
-| description | Original Log |
-| frequency | Occurrence Count |
-| risk_score | Calculated Score |
-| country | Country |
-| city | City |
-| isp | Internet Provider |
-| organization | Organization |
-| created_at | Detection Time |
+**Columns**
 
-
+          - id
+          - source_ip
+          - event_type
+          - severity_level
+          - asset_criticality
+          - description
+          - frequency
+          - risk_score
+          - country
+          - city
+          - isp
+          - organization
+          - created_at
 
 ### Users
-
 Stores authentication information.
 
-| Column | Description |
-|---------|-------------|
-| user_id | Primary Key |
-| username | Login Username |
-| password | bcrypt Password |
-| role | User Role |
+**Columns**
 
-
+          - user_id
+          - username
+          - password
+          - role
 
 ### Incidents
-
 Tracks incident lifecycle.
 
-| Column | Description |
-|---------|-------------|
-| incident_id | Primary Key |
-| threat_id | Related Threat |
-| source_ip | Attacker |
-| attack_type | Attack |
-| severity | Severity |
-| risk_score | Score |
-| status | OPEN / INVESTIGATING / RESOLVED |
-| assigned_to | Analyst |
-| created_time | Created |
-| resolved_time | Resolved |
+**Columns**
 
+          - incident_id
+          - threat_id
+          - source_ip
+          - attack_type
+          - severity
+          - risk_score
+          - status
+          - risk_score
+          - assigned_to
+          - created_time
+          - resolved_time
 
 
 ## Authentication Workflow
