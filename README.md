@@ -21,7 +21,7 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 - [System Architecture](#system-architecture)
 - [Soc_Dashboard](#-soc-dashboard)
 - [Project Structure](#-project-structure)
-- [Database Design](#-database-design)
+- [Database Design](#database-design)
 - [Authentication Workflow](#-authentication-workflow)
 - [Running the Project](#-running-the-project)
 - [Incident_Logs](#incident-logs)
