@@ -9,8 +9,6 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
 ![Plotly](https://img.shields.io/badge/Plotly-Visualization-green)
-![License](https://img.shields.io/badge/License-MIT-success)
-
 
 ## 📑 Table of Contents
 - [Login_Page](#login-page)
@@ -249,34 +247,41 @@ Risk Score Engine        Incident Manager
 
 ## 📂 Project Structure
 ```
-Python/
-│
-├── ap.py
-├── hash_password.py
-├── ip_intelligence.py
-├── network_detector.py
-├── test_incident.py
-├── test_ip.py
-├── alert_engine.py
-├── login.py
-├── user_management.py
-├── monitor.py
-├── detector.py
-├── network_monitor.py
-├── traffic_generator.py
-├── incident_manager.py
-├── database.py
-├── config.py
-├── requirements.txt
-├── README.md
-│
-├── Streamlit_Dashboard
-│
-├── sql/
+├── Streamlit_Dashboard/
+│   ├── Dashboard1
+│   ├── Dashboard_2
+│   ├── Dashboard_3
+│   └── login_page
+├── Python/
+│   ├── hash_password.py
+│   ├── ip_intelligence.py
+│   ├── network_detector.py
+│   ├── test_incident.py
+│   ├── test_ip.py
+│   ├── alert_engine.py
+│   ├── login.py
+│   ├── user_management.py
+│   ├── monitor.py
+│   ├── detector.py
+│   ├── network_monitor.py
+│   ├── traffic_generator.py
+│   ├── incident_manager.py
+│   ├── database.py
+│   ├── config.py
+│   └── windows_detector
+├── Log_Files/
+│   ├── network_traffic
+│   └── server_access
+├── Cyber_Shield_Report/
+│   └── CyberShield_Analytics_Project_Report
+├── Sql/
 │   ├── database.sql
 │   └── sample_data.sql
-│
-└── server_access.log
+├── DB_creation_for_storing_live_incidents
+│   └── data_stored_in_mysql_database
+├── Alert_Notification_Showcase/
+│   └── alert_notification
+└── README.md/
 ```
 
 
