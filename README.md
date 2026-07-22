@@ -10,7 +10,7 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 ![MySQL](https://img.shields.io/badge/MySQL-Database-orange)
 ![Plotly](https://img.shields.io/badge/Plotly-Visualization-green)
 
-## 📑 Table of Contents
+## Table of Contents
 - [Login_Page](#login-page)
 - [Project Overview](#project-overview)
 - [Business Problem](#business-problem)
