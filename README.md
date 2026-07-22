@@ -14,7 +14,7 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 - [Login_Page](#login-page)
 - [Project Overview](#project-overview)
 - [Business Problem](#business-problem)
-- [Project Objectives](#-project-objectives)
+- [Project Objectives](#project-objectives)
 - [Dashboard Preview](#-dashboard-preview)
 - [Key Features](#key-features)
 - [Technology Stack](#technology-stack)
@@ -23,7 +23,7 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 - [Database Structure](#database-structure)
 - [Authentication Workflow](#authentication-workflow)
 - [How_to_Run_System](#how-to-run-system)
-- [Incidents_Logs](#incidents-logs)
+- [Incidents_Logs_Dashboard](#-incidents-logs-dashboard)
 - [Project Outcomes](#project-outcomes)
 - [Future Enhancements](#future-enhancements)
 - [Author](#author)
@@ -68,7 +68,7 @@ CyberShield Analytics addresses these challenges by providing a simplified yet e
 
 
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Build a real-time SOC monitoring platform
 - Detect common cyber attacks automatically
@@ -394,7 +394,7 @@ http://localhost:8501
 ```
 
 
-## Incidents logs
+## 📊 Incidents logs Dashboard
 ![Incidents](Streamlit_Dashboards/dashboard_3.png)
 
 
