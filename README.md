@@ -27,7 +27,7 @@ This project demonstrates practical cybersecurity analytics, automation, databas
 - [Incident_Logs](#incident-logs)
 - [Project Outcomes](#-project-outcomes)
 - [Future Enhancements](#-future-enhancements)
-- [Author](#-author)
+- [Author](#author)
 
 
 ### Login page
